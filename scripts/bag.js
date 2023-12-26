@@ -69,10 +69,7 @@ function generateItemHtml(item){
         <div class="remove-from-cart" onclick="removeFromBag(${item.id})">X</div>
       </div>
 
-        
-      <button class="btn-place-order">
-      <div class="css-xjhrni">PLACE ORDER</div>
-    </button>
+     
 
 `
 
@@ -115,6 +112,11 @@ bagItemObjects.forEach(bagItem=>{
   <span class="price-item-value">₹  ${finalPayment}</span>
 </div>
 </div>
+
+   
+<button class="btn-place-order">
+<div class="css-xjhrni">PLACE ORDER</div>
+</button>
     `
 }
 
